@@ -32,8 +32,13 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 / 2015-05-16 =
+ - Add support to PHP < 5.5.0
+ - Use vendor folder to external content
+
+= 1.0.0 / 2015-05-14 =
 * First version
+
 
 == Upgrade Notice ==
 
