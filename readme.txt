@@ -4,7 +4,7 @@ Donate link: https://twitter.com/arnolem
 Tags: analyse, debug, firephp, php, sql, tuning, firebug, firefox, bug, plugin, development, logging, query, queries, performance, debugging, wixiweb
 Requires at least: 2.0.0
 Tested up to: 4.2.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,8 +32,13 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 / 2015-05-16 =
+ - Add support to PHP < 5.5.0
+ - Use vendor folder to external content
+
+= 1.0.0 / 2015-05-14 =
 * First version
+
 
 == Upgrade Notice ==
 
