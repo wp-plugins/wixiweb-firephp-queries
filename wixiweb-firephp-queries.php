@@ -5,10 +5,10 @@
  * Plugin URI:  http://wixiweb.fr
  * Description: Use Firebug with FirePHP to analyze the SQL queries made by Wordpress. Ideal for development and avoid performance issues.
  * Author:      Arnaud Lemercier
- * Version:     1.0
+ * Version:     1.0.1
  * Author URI:  http://arnaud.lemercier.me
  */
-include_once 'vendor/fb.php';
+include_once 'vendor/firephp/fb.php';
 
 new WixiwebFirephpQueries();
 
@@ -17,6 +17,10 @@ class WixiwebFirephpQueries
 
     public function __construct()
     {
+	
+		if (version_compare(phpversion(), "5.5.0", "<")) {
+			include_once('vendor/ramsey/array_column.php');
+		}
 
         add_action('init', function() {
 

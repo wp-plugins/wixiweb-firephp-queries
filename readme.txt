@@ -1,7 +1,7 @@
 === Wixiweb FirePHP Queries ===
 Contributors: arnolem
 Donate link: https://twitter.com/arnolem
-Tags: analyse, debug, firephp, php, sql, tuning, firebug, firefox, bug, plugin, development, logging, query, queries, performance, debugging
+Tags: analyse, debug, firephp, php, sql, tuning, firebug, firefox, bug, plugin, development, logging, query, queries, performance, debugging, wixiweb
 Requires at least: 2.0.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
@@ -13,6 +13,8 @@ Use Firebug with FirePHP to analyze the SQL queries made by Wordpress. Ideal for
 == Description ==
 
 Use Firebug with **FirePHP** to **analyze the SQL queries** made by Wordpress. Ideal for development and **avoid performance issues**.
+
+![Firephp for Wordpress](https://ps.w.org/wixiweb-firephp-queries/assets/screenshot-1.png "wixiweb-firephp-queries for Wordpress to view all SQL Queries in FirePHP")
 
 == Installation ==
 
@@ -30,7 +32,7 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * First version
 
 == Upgrade Notice ==
